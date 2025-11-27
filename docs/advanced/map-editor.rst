@@ -217,16 +217,36 @@ it will generate.  **This information may be incomplete/incorrect.**
    WIP, WIP
    
 .. csv-table:: Bridge Subtypes and Descriptions
-   :header: "Bridge Type ID", "Description"
+   :header: "Bridge Type", "Bridge Subtype = Small Bridge | Normal Bridge | Large Bridge"
    :align: center
 
-   WIP, WIP
+   Straight Stone Bridges, 0 = 3 Spaces | 1 = 4 Spaces | 2 = 5 Spaces
+   Diagonal Stone Bridges, 3 = 3 Spaces | 4 = 4 Spaces | 5 = 5 Spaces
+   Straight Suspension Bridges, 7 = 3 Spaces | 6 = 4 Spaces | 8 = 5 Spaces
+   Diagonal Suspension Bridges, 9 = 3 Spaces | 10 = 4 Spaces | 11 = 5 Spaces
+   Straight Zen Bridges, 19 = 3 Spaces | 12 = 4 Spaces | 20 = 5 Spaces
+   Diagonal Zen Bridges, 21 = 3 Spaces | 22 = 4 Spaces | 23 = 5 Spaces
+   Straight Log Bridges, 14 = 3 Spaces | 13 = 4 Spaces | 15 = 5 Spaces
+   Diagonal Log Bridges, 16 = 3 Spaces | 17 = 4 Spaces | 18 = 5 Spaces
+   Straight Red Zen Bridges, 32 = 3 Spaces | 24 = 4 Spaces | 33 = 5 Spaces
+   Diagonal Red Zen Bridges, 34 = 3 Spaces | 35 = 4 Spaces | 36 = 5 Spaces
+   Straight Iron Bridges, 39 = 3 Spaces | 25 = 4 Spaces | 40 = 5 Spaces
+   Diagonal Iron Bridges, 41 = 3 Spaces | 42 = 4 Spaces | 43 = 5 Spaces
+   Straight Wooden Bridges, 44 = 3 Spaces | 37 = 4 Spaces | 45 = 5 Spaces
+   Diagonal Wooden Bridges, 46 = 3 Spaces | 47 = 4 Spaces | 48 = 5 Spaces
+   Straight Brick Bridges, 49 = 3 Spaces | 38 = 4 Spaces | 50 = 5 Spaces
+   Diagonal Brick Bridges, 51 = 3 Spaces | 52 = 4 Spaces | 53 = 5 Spaces
+   Straight Roped Off, 26 = 3 Spaces | 27 = 4 Spaces | 28 = 5 Spaces
+   Diagonal Roped Off, 29 = 3 Spaces | 30 = 4 Spaces | 31 = 5 Spaces
    
 .. csv-table:: Bridge Angles and Descriptions
    :header: "Bridge Angle ID", "Description"
    :align: center
 
-   WIP, WIP
+   0, Straight Left to right OR Diagonal top light 45 degrees
+   1, Straight top to bottom OR Diagonal bottom right -45 degrees
+   2, Straight right to left OR Diagonal bottom left -135 degrees
+   3, Straight bottom to top OR Diagonal top left 135 degrees
 
 Terrain Manipulation
 ====================
